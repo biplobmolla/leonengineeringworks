@@ -119,4 +119,13 @@
     #list-of-clients .max-width .content table td {
         font-size: 0.5rem;
     }
+
+    .logo img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .logo span {
+        font-size: 0.5rem;
+    }
 }
