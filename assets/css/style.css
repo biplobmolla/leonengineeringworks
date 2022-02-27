@@ -382,6 +382,20 @@ header ul li a:hover {
     text-align: center;
 }
 
+.developer-info {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.developer-info a {
+    color: crimson;
+}
+
+.developer-info a:hover {
+    text-decoration: underline;
+}
+
 /* Contact Us Section End */
 
 /* About Us Section Start */
