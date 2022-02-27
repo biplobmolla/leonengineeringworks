@@ -283,7 +283,7 @@ header ul li a:hover {
 #list-of-clients .max-width .content table td {
     border: 1px solid black;
     font-size: 1.3rem;
-    padding: 5px;
+    padding: 0.2em;
 }
 
 #list-of-clients .max-width .content table tbody:first-child {
