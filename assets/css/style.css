@@ -94,6 +94,28 @@ header {
     padding: 10px 0;
 }
 
+header nav #close {
+    width: 35px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    transform: rotateZ(45deg);
+}
+
+header nav #close::after {
+    content: '';
+    width: 35px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    transform: rotateZ(90deg);
+}
+
 header ul {
     display: flex;
     align-items: center;

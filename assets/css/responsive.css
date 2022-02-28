@@ -17,9 +17,9 @@
         height: 100vh;
         position: fixed;
         top: 0;
-        left: 0;
+        right: -120%;
         background-color: rgba(0, 0, 0, 0.8);
-        display: none;
+        transition: 0.4s ease-in;
     }
 
     header ul {
