@@ -10,8 +10,9 @@ for (let i = 0; i < link.length; i++) {
 }
 
 menu.addEventListener('click', () => {
-    nav.style.right = "0";
+    nav.style = 'display: block; right: 0;';
 });
+
 close.addEventListener('click', () => {
     nav.style.right = "-120%";
 });
